@@ -7,9 +7,9 @@ class HomeLess:
         
         
 class StandardHomeless(HomeLess):
-    def __init__(self, nombre):
-        super().__init__(nombre)
+    def __init__(self, name):
+        super().__init__(name)
         
     def walk(self):
-        return random.choice([(1,0),(-1,0),(0,-1)])
+        return random.choice([(1,0),(-1,0),(0,-1), (0,1)])
     

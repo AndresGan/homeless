@@ -13,7 +13,7 @@ class Field:
         
         current_coordinate = self.homeless_coordinates[homeless]
         new_coordinate = current_coordinate.move(delta_x, delta_y)
-        self.homeless_coordinates[homeless]
+        self.homeless_coordinates[homeless]=new_coordinate
         
     def get_coordinate(self, homeless):
         return self.homeless_coordinates[homeless]
